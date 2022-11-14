@@ -40,7 +40,7 @@ gallery.addEventListener('click', e => {
 
 	instance.show();
     
-gallery.removeEventListener('keydown', e => {
+gallery.addEventListener('keydown', e => {
 		if (e.key === 'Escape') {
 			instance.close();
 		}
